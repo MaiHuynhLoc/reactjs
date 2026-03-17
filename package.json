@@ -1,0 +1,152 @@
+{
+  "name": "reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^44.3.0",
+    "@ckeditor/ckeditor5-react": "^11.0.1",
+    "@fullcalendar/bootstrap": "^6.1.20",
+    "@fullcalendar/core": "^6.1.20",
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/list": "^6.1.20",
+    "@fullcalendar/multimonth": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@hello-pangea/dnd": "^18.0.1",
+    "@react-google-maps/api": "^2.20.8",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@simonwep/pickr": "^1.9.1",
+    "@south-paw/react-vector-maps": "^3.2.0",
+    "@tanstack/match-sorter-utils": "^8.19.4",
+    "@tanstack/react-table": "^8.21.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vtaits/react-color-picker": "^2.0.0",
+    "aos": "^2.3.4",
+    "apexcharts": "^5.3.6",
+    "axios": "^1.13.5",
+    "axios-mock-adapter": "^2.1.0",
+    "bootstrap": "5.3.8",
+    "chart.js": "^4.5.1",
+    "cleave.js": "^1.6.0",
+    "echarts": "^6.0.0",
+    "echarts-for-react": "^3.0.6",
+    "emoji-picker-react": "^4.18.0",
+    "eslint": "^8.56.0",
+    "feather-icons-react": "^1.0.0",
+    "filepond": "^4.32.11",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.12",
+    "firebase": "^12.9.0",
+    "formik": "^2.4.9",
+    "i18next": "^25.8.4",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "list.js": "^2.3.1",
+    "lord-icon-element": "^4.1.2",
+    "lottie-web": "^5.13.0",
+    "moment": "^2.30.1",
+    "nouislider-react": "^3.4.2",
+    "prismjs": "^1.30.0",
+    "quill": "^2.0.3",
+    "react": "19.2.4",
+    "react-apexcharts": "1.9.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-color": "^2.19.3",
+    "react-countdown": "^2.3.6",
+    "react-countup": "^6.5.3",
+    "react-csv": "^2.2.2",
+    "react-dom": "19.2.4",
+    "react-drag-listview": "^2.0.0",
+    "react-dragula": "^1.1.17",
+    "react-dropzone": "^15.0.0",
+    "react-dual-listbox": "^6.0.3",
+    "react-fast-marquee": "^1.6.5",
+    "react-filepond": "^7.1.3",
+    "react-flatpickr": "^4.0.11",
+    "react-i18next": "^16.5.4",
+    "react-masonry-css": "^1.0.16",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-quilljs": "^2.0.5",
+    "react-rating": "^2.0.5",
+    "react-redux": "^9.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^7.13.0",
+    "react-scripts": "^5.0.1",
+    "react-scrollspy": "^3.4.3",
+    "react-select": "^5.10.2",
+    "react-switch": "^7.1.0",
+    "react-toastify": "^11.0.5",
+    "reactstrap": "^9.2.3",
+    "redux": "^5.0.1",
+    "remixicon-react": "^1.0.0",
+    "reselect": "^5.1.1",
+    "sass": "1.97.3",
+    "save": "^2.9.0",
+    "simplebar-react": "^3.3.2",
+    "swiper": "^12.1.0",
+    "web-vitals": "^5.1.0",
+    "yet-another-react-lightbox": "^3.28.0",
+    "yup": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "moment": "2.29.1",
+    "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.23",
+    "@types/react-bootstrap-table2-paginator": "^2.1.6",
+    "@types/react-bootstrap-table2-toolkit": "^2.1.14",
+    "babel-eslint": "^10.1.0"
+  },
+  "overrides": {
+    "@hello-pangea/dnd": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "@vtaits/react-color-picker": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "feather-icons-react": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "react-dual-listbox": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "react-flatpickr": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "react-table": {
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    }
+  }
+}
